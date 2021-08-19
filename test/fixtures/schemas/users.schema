@@ -1,0 +1,8 @@
+#
+# This is the test schema representing a users table
+name=users
+primary_key=id
+field=id uuid nilable=false
+field=email string nilable=false
+field=notes string
+index=email_unique_idx (email) unique=true
